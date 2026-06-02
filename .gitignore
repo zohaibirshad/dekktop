@@ -1,82 +1,31 @@
 ```
 # Dependencies
 node_modules/
-target/
-
-# Tauri-specific
-src-tauri/target/
-**/*.rs.bk
+.pnpm-store/
 
 # Build outputs
 dist/
 build/
+*.tsbuildinfo
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# IDE
+# Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # Logs
 *.log
 
-# Python (in case Python files are added later)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.git/
-.mypy_cache/
-.pytest_cache/
-.hypothesis/
-
-# Node.js (for Vite/Tauri project)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-node_modules/
-dist/
-dist-ssr/
-*.local
-
-# TypeScript
-*.tsbuildinfo
-.next/
-.nuxt/
-.vuepress/dist
-.output
-.svelte-kit/
-.svelte/
-.cjs
-.mjs
-
-# Rust (Tauri)
-target/
-Cargo.lock
-**/*.rs.bk
-
-# Temporary files
+# Temp files
 *.tmp
-*.temp
-*~
-.DS_Store
-Thumbs.db
+
+# Tauri specific
+src-tauri/target/
+src-tauri/tauri.conf.json
 ```

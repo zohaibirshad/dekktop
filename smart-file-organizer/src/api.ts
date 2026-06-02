@@ -1,5 +1,5 @@
 import { invoke } from '@tauri-apps/api/core';
-import type { FileItem } from '../types';
+import type { FileItem } from './types';
 
 /**
  * Scan files from user directories using Tauri command
