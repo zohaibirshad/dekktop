@@ -1,0 +1,8 @@
+/target
+**/target
+*.rs.bk
+Cargo.lock
+icons/*.png
+icons/*.ico
+icons/*.icns
+icons/*.gen.png
