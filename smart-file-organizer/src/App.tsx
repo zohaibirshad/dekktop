@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { scanFiles, searchFiles } from './api';
 import SearchBar from './components/SearchBar';
 import FileList from './components/FileList';
